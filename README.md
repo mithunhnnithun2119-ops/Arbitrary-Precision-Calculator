@@ -103,10 +103,10 @@ gcc main.c apc.c dll.c utils.c -o apc
 
 | Operator | Operation | Example |
 |----------|-----------|---------|
-| `+` | Addition | `./apc 99999999999 + 1` |
-| `-` | Subtraction | `./apc 10000000000 - 9999999999` |
-| `x` | Multiplication | `./apc 123456789 x 987654321` |
-| `/` | Division | `./apc 999999999999 / 3` |
+| `+` | Addition | `./a.out 99999999999 + 1` |
+| `-` | Subtraction | `./a.out 10000000000 - 9999999999` |
+| `x` | Multiplication | `./a.out 123456789 x 987654321` |
+| `/` | Division | `./a.out 999999999999 / 3` |
 
 ---
 
