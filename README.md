@@ -101,10 +101,10 @@ gcc main.c apc.c dll.c utils.c -o apc
 
 | Operator | Operation | Example |
 |----------|-----------|---------|
-| `+` | Addition | `./apc 99999999999 + 1` |
-| `-` | Subtraction | `./apc 10000000000 - 9999999999` |
-| `x` | Multiplication | `./apc 123456789 x 987654321` |
-| `/` | Division | `./apc 999999999999 / 3` |
+| `+` | Addition | `./a.out 99999999999 + 1` |
+| `-` | Subtraction | `./a.out 10000000000 - 9999999999` |
+| `x` | Multiplication | `./a.out 123456789 x 987654321` |
+| `/` | Division | `./a.out 999999999999 / 3` |
 
 ---
 
@@ -113,7 +113,7 @@ gcc main.c apc.c dll.c utils.c -o apc
 ### Addition — Numbers Beyond `long long`
 
 ```bash
-$ ./apc 99999999999999999999 + 1
+$ ./a.out 99999999999999999999 + 1
 
   Input A  :  99999999999999999999
   Operator :  +
@@ -125,7 +125,7 @@ $ ./apc 99999999999999999999 + 1
 ### Multiplication of Large Numbers
 
 ```bash
-$ ./apc 123456789123456789 x 987654321987654321
+$ ./a.out 123456789123456789 x 987654321987654321
 
   Input A  :  123456789123456789
   Operator :  x
@@ -137,7 +137,7 @@ $ ./apc 123456789123456789 x 987654321987654321
 ### Division with Remainder
 
 ```bash
-$ ./apc 1000000000000 / 7
+$ ./a.out 1000000000000 / 7
 
   Input A  :  1000000000000
   Operator :  /
@@ -150,7 +150,7 @@ $ ./apc 1000000000000 / 7
 ### Invalid Input Handling
 
 ```bash
-$ ./apc 12abc + 5
+$ ./a.out 12abc + 5
 
   ❌ Error: Invalid input — '12abc' contains non-numeric characters.
 ```
