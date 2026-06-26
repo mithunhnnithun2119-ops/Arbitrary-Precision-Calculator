@@ -7,11 +7,9 @@
 <br/>
 
 ![Language](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Unix-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Standard](https://img.shields.io/badge/Standard-C99-blue?style=for-the-badge&logo=gnu&logoColor=white)
+![DSA](https://img.shields.io/badge/DSA-Doubly%20Linked%20List-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Build](https://img.shields.io/badge/Build-GCC-orange?style=for-the-badge&logo=gnu&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-00d4ff?style=for-the-badge)
 
 </div>
 
@@ -103,10 +101,10 @@ gcc main.c apc.c dll.c utils.c -o apc
 
 | Operator | Operation | Example |
 |----------|-----------|---------|
-| `+` | Addition | `./a.out 99999999999 + 1` |
-| `-` | Subtraction | `./a.out 10000000000 - 9999999999` |
-| `x` | Multiplication | `./a.out 123456789 x 987654321` |
-| `/` | Division | `./a.out 999999999999 / 3` |
+| `+` | Addition | `./apc 99999999999 + 1` |
+| `-` | Subtraction | `./apc 10000000000 - 9999999999` |
+| `x` | Multiplication | `./apc 123456789 x 987654321` |
+| `/` | Division | `./apc 999999999999 / 3` |
 
 ---
 
